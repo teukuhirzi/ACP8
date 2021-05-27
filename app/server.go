@@ -16,6 +16,15 @@ type Server struct {
 	Router *mux.Router
 }
 
+type DBConfig struct {
+	DBHost     string
+	DBUser     string
+	DBPassword string
+	DBName     string
+	DBPort     string
+	DBDriver   string
+}
+
 type AppConfig struct {
 	AppName string
 	AppEnv  string
