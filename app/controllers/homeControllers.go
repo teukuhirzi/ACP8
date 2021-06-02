@@ -8,3 +8,5 @@ import (
 func Home(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome to Altastore Home")
 }
+
+
